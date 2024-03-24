@@ -1,0 +1,22 @@
+ :root{
+    --color-white: #fff;
+    --color-dark1: rgb(39, 39, 39);
+    --color-dark2: #2d2d2d;
+    --color-dark3: #414141;
+}
+
+#meuDialog{
+    color: var(--color-white);
+    background-color: var(--color-dark1);
+}
+
+#excluirDialogBtn{
+    color: red;
+    background-color: var(--color-dark1);
+}
+
+#cancelarDialogBtn, #fecharDialogBtn{
+    margin-left: 5%;
+    color: var(--color-white);
+    background-color: var(--color-dark1);
+}

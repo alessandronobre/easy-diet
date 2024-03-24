@@ -1,0 +1,38 @@
+:root{
+    --color-white: #fff;
+    --color-dark1: rgb(39, 39, 39);
+    --color-dark2: #2d2d2d;
+    --color-dark3: #414141;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--color-dark1);
+    opacity: 0.7;
+}
+
+main {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main h3{
+    color: var(--color-white);
+}
+
+#table{
+    width: 30%;
+}
+
+td{
+    cursor: pointer;
+}
