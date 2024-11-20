@@ -1,0 +1,21 @@
+.form_title h1 {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  color: var(--primary);
+}
+
+form {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--background);
+}
+
+input, select {
+  width: 50%;
+  height: 40px;
+  font-size: var(--font-secondary);
+  color: var(--text-primary);
+  background-color: var(--background);
+  border: 5px solid var(--divider);
+}

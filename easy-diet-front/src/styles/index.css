@@ -1,0 +1,25 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --primary: #1db954;
+  --background: #121212;
+  --background-secudary: #333333;
+  --text-primary: #e5e5e5;
+  --text-secondary: #7c7c7c;
+  --text-hover: #a7a7a7;
+  --font-primary: 30px;
+  --font-secondary: large;
+  --divider: rgb(255, 255, 255, 0.1);
+
+}
+
+* {
+  box-sizing: border-box
+}
+
+body {
+  color: var(--text-primary);
+  background-color: var(--background);
+}

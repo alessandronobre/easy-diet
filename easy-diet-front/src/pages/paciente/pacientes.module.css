@@ -1,0 +1,55 @@
+/* Container Titulo */
+.pacientes_title {
+  display: flex;
+  justify-content: center;
+}
+
+/* Titulo */
+.pacientes_title h1 {
+  font-size: var(--font-primary);
+  color: var(--text-primary);
+}
+
+/* Container Search - Create */
+.search_and_create {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Botão de cadastro */
+.btn_create_paciente {
+  color: var(--text-primary);
+  font-size: large;
+  border-radius: 10px;  
+  background-color: var(--background);
+  border-color: var(--primary);
+  cursor: pointer;
+}
+
+.btn_create_paciente:hover {
+  background-color: var(--primary);
+}
+
+.lista_pacientes table {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--background);
+}
+
+.lista_pacientes table tr {
+  font-size: var(--font-secondary);
+  text-align: center;
+}
+
+.lista_pacientes table tr td {
+  padding: 5px;
+  border-radius: 10px;
+  border: 5px solid var(--divider);
+}
+
+.button_container {
+  display: flex;
+  justify-content: space-around;
+}

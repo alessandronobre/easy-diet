@@ -1,0 +1,12 @@
+.btn_edit {
+  color: var(--text-primary);
+  font-size: large;
+  border-radius: 10px;  
+  background-color: var(--background);
+  border-color: rgb(255, 193, 7);
+  cursor: pointer;
+}
+
+.btn_edit:hover {
+  background-color: rgb(255, 193, 7);
+}

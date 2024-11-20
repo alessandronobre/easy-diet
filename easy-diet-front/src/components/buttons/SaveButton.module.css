@@ -1,0 +1,12 @@
+.btn_save {
+  color: var(--text-primary);
+  font-size: large;
+  border-radius: 10px;  
+  background-color: var(--background);
+  border-color: var(--primary);
+  cursor: pointer;
+}
+
+.btn_save:hover {
+  background-color: var(--primary);
+}

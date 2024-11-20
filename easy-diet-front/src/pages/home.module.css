@@ -1,0 +1,8 @@
+.welcome_container {
+  text-align: center;
+  border-radius: 10px;
+}
+
+.welcome_container h1 {
+  color: var(--primary);
+}

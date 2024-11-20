@@ -1,0 +1,47 @@
+.dados_name {  
+  display: flex;
+  justify-content: center; 
+  align-items: center;   
+  color: var(--text-secondary);
+  background-color: var(--background);
+  border: 5px solid var(--divider);
+}
+
+.dados{
+  padding: 10px;
+  color: var(--text-primary);
+  background-color: var(--background);
+  border: 5px solid var(--divider);
+}
+
+.dados p {
+  font-size: var(--font-secondary);
+  color: var(--text-primary);
+}
+
+.button_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btnViewMaros {
+  color: var(--text-primary);
+  font-size: large;
+  border-radius: 10px;  
+  background-color: var(--background);
+  border-color: var(--primary);
+  cursor: pointer;
+}
+
+.btnGerarMaros {
+  color: var(--text-primary);
+  font-size: large;
+  border-radius: 10px;  
+  background-color: var(--background);
+  border-color: var(--primary);
+  cursor: pointer;
+}
+
+.btnGerarMaros:hover, .btnViewMaros:hover {
+  background-color: var(--primary);
+}
